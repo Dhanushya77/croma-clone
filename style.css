@@ -41,7 +41,15 @@
 .buy{
     margin-left: 20%;
 }
+.cc {
+    display: flex;
+}
 
+.cc p {
+    text-align: center;
+    margin-top: 1px;
+    color: gray;
+}
 
 
 
@@ -98,4 +106,108 @@
     
     
     
+}
+ 
+     
+@media screen  and (max-width:767px) and (min-width:577px) {
+       .banner img{
+        width: 100%;
+        height: 50px;
+        position: relative;
+    }
+    .logo{
+        position: absolute;
+        top: 1%;
+        left: 10%;
+        
+    }
+    .logo img{
+        width: 100px;
+        height: auto;
+    }
+    .nav{
+        position: absolute;
+        top: 2%;
+        left: 20%;
+    }
+    .bi{
+        margin-top: 1px;
+        width:10px;
+        height: 10px;
+    }
+    .bi1{
+        margin-top: 10px;
+        width:10px;
+        height: 10px;
+    }
+    .bi2{
+        margin-top: 18px;
+        width:10px;
+        height: 10px;
+    }
+    
+    .search1{
+        margin-left: 30px;
+        width: 500px;
+        height:50px;
+     
+    }
+    .loc{
+        margin-left: 20%;
+    }
+    .buy{
+        margin-left: 20%;
+    }
+}
+
+@media screen  and (max-width:992px) and (min-width:768px) {
+
+    .banner img{
+        width: 100%;
+        height: 60px;
+        position: relative;
+    }
+    .logo{
+        position: absolute;
+        top: 1%;
+        left: 10%;
+        
+    }
+    .logo img{
+        width: 100px;
+        height: auto;
+    }
+    .nav{
+        position: absolute;
+        top: 2%;
+        left: 20%;
+    }
+    .bi{
+        margin-top: 1px;
+        width:10px;
+        height: 10px;
+    }
+    .bi1{
+        margin-top: 10px;
+        width:10px;
+        height: 10px;
+    }
+    .bi2{
+        margin-top: 18px;
+        width:10px;
+        height: 10px;
+    }
+    
+    .search1{
+        margin-left: 30px;
+        width: 200px;
+        height:50px;
+     
+    }
+    .loc{
+        margin-left: 20%;
+    }
+    .buy{
+        margin-left: 20%;
+    }
 }
