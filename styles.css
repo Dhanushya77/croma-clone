@@ -1,0 +1,140 @@
+
+.banner img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    z-index: 10;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.nav {
+    position: absolute;
+    top: 2%;
+    left: 20%;
+}
+
+.bi, .bi1, .bi2 {
+    width: 10px;
+    height: 10px;
+}
+
+.bi{
+    margin-top: 5px;
+}
+
+.bi1 {
+    margin-top: 10px;
+}
+
+.bi2 {
+    margin-top: 18px;
+}
+
+.search1 {
+    margin-left: 30px;
+    width: 500px;
+    height: 50px;
+}
+
+.loc, .buy {
+    margin-left: 20%;
+}
+
+.contents{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+.cc {
+    display: flex;
+}
+
+.cc p {
+    text-align: center;
+    margin-top: 1px;
+    color: gray;
+}
+
+
+@media screen and (max-width: 576px) {
+    .banner img {
+        height: 150px;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+
+    .bi, .bi1, .bi2 {
+        width: 8px;
+        height: 8px;
+    }
+
+    .search1 {
+        width: 80%;
+        height: 40px;
+    }
+
+    .loc, .buy {
+        margin-left: 10%;
+    }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    .banner img {
+        height: 200px;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .search1 {
+        width: 70%;
+    }
+
+    .loc, .buy {
+        margin-left: 15%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .banner img {
+        height: 250px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    .search1 {
+        width: 60%;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .banner img {
+        height: auto;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .search1 {
+        width: 500px;
+    }
+}

@@ -43,6 +43,7 @@
 }
 .cc {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .cc p {
