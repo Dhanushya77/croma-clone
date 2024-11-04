@@ -35,11 +35,14 @@
     height:50px;
  
 }
-.loc{
+.loc, .buy {
     margin-left: 20%;
 }
-.buy{
-    margin-left: 20%;
+.contents{
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    margin: auto;
 }
 .cc {
     display: flex;
@@ -51,7 +54,10 @@
     margin-top: 1px;
     color: gray;
 }
-
+.cc img{
+    width: 150px;
+    height: 170px;
+}
 
 
 
