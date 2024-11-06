@@ -3,8 +3,10 @@
     width: 100%;
     height: auto;
 }
-
-
+.page{
+    width: 85%;
+    margin: auto;
+}
 .logo {
     position: absolute;
     top: 4%;
@@ -47,10 +49,6 @@
     margin-left: 20%;
 }
 
-.contents {
-    width: 85%;
-    margin: auto;
-}
 
 .cc img {
     width: 125px;
@@ -153,8 +151,8 @@
 }
 
 .main7 {
-    position: absolute;
-    top: 500px;
+   width: 100%;
+
 }
 
 .main8 h2 {
@@ -192,6 +190,56 @@
     color: white;
     margin-bottom: 2vh;
 }
+.contents1{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 6vh;
+}
+.contents1 img{
+    width:260px;
+    height:180px;
+    border-radius: 10px;
+}
+.footer{
+    width: 100%;
+    margin: auto;
+}
+.sub1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+}
+.sub1 h3{
+    color: white;
+    margin-bottom: 3vh;
+
+}
+.sub1 input[type="email"]{
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 10px;
+background-color: #f0f0f0;
+outline: none;
+text-align: center;
+position: relative;
+}
+.sub1 button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color:blue;
+    position: absolute;
+    left: 14%;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
     .banner img {
