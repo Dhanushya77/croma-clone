@@ -3,10 +3,12 @@
     width: 100%;
     height: auto;
 }
-.page{
+
+.page {
     width: 85%;
     margin: auto;
 }
+
 .logo {
     position: absolute;
     top: 4%;
@@ -42,6 +44,12 @@
     margin-left: 4vw;
     width: 500px;
     height: 50px;
+    position: relative;
+}
+.bi0{
+    position: absolute;
+    top: 33%;
+    left: 70%;
 }
 
 .loc,
@@ -151,7 +159,7 @@
 }
 
 .main7 {
-   width: 100%;
+    width: 100%;
 
 }
 
@@ -161,82 +169,159 @@
     color: white;
     margin-bottom: 2vh;
 }
+
 .main8 img {
     width: 100%;
     height: 200px;
     border-radius: 10px;
 }
-.flex2{
+
+.flex2 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin: auto;
     gap: 20px;
 }
-.icc{
+
+.icc {
     width: 150px;
     height: 150px;
     margin-bottom: 2vh;
 }
-.main9 h2{
+
+.main9 h2 {
     margin-top: 6vh;
     text-align: left;
     color: white;
     margin-bottom: 2vh;
 }
-.main10 h2{
+
+.main10 h2 {
     margin-top: 6vh;
     text-align: left;
     color: white;
     margin-bottom: 2vh;
 }
-.contents1{
+
+.contents1 {
     width: 100%;
     margin: auto;
     margin-bottom: 6vh;
 }
-.contents1 img{
-    width:260px;
-    height:180px;
+
+.contents1 img {
+    width: 260px;
+    height: 180px;
     border-radius: 10px;
 }
-.footer{
-    width: 100%;
-    margin: auto;
-}
-.sub1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 250px;
-    padding: 10px;
-}
-.sub1 h3{
-    color: white;
-    margin-bottom: 3vh;
+.foot{
+    background-color: #353535;
 
 }
-.sub1 input[type="email"]{
-width: 100%;
-padding: 10px;
-border: none;
-border-radius: 10px;
-background-color: #f0f0f0;
-outline: none;
-text-align: center;
-position: relative;
+.footer {
+    width: 85%;
+    margin: auto;
+    position: relative;
+    background-color: #353535;
+  
 }
-.sub1 button{
+.grid3{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.sub1 {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.sub1 h5 {
+    color: white;
+    margin-bottom: 2vh;
+
+
+}
+.sub1 p{
+    margin-top: 3vh;
+    color: white;
+}
+
+.sub1 input[type="email"] {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    outline: none;
+    text-align:left;
+    font-size: 1.2em;
+}
+
+.sub1 button {
     background: none;
     border: none;
     cursor: pointer;
-    color:blue;
+    color: rgb(53, 51, 51);
     position: absolute;
-    left: 14%;
+    left: 20%;
+    top:20%;
+    font-size: 28px;
+    font-weight: lighter;
 }
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    color: white;
+    margin-top: 2vh;
 
+}
+.bod{
+    border-right: 1px solid white;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+.bod1{
+    border-right: 1px solid white;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+.sub2{
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.sub3{
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.subb{
+    display: flex;
+    width: 70%;
+}
+.sub3b{
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+.sub2b{
+    margin-left: 2vw;
 
-
+}
 
 
 
