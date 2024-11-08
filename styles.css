@@ -122,6 +122,12 @@
     height: 390px;
     border-radius: 10px;
 }
+.main5 h2 {
+    margin-top: 3vh;
+    text-align: left;
+    color: white;
+    margin-bottom: 3vh;
+}
 
 .grid2 {
     display: grid;
@@ -132,12 +138,6 @@
     margin-bottom: 3vh;
 }
 
-.main5 h2 {
-    margin-top: 3vh;
-    text-align: left;
-    color: white;
-    margin-bottom: 3vh;
-}
 
 .img8,
 .img9 {
@@ -224,6 +224,7 @@
     margin: auto;
     position: relative;
     background-color: #353535;
+    font-size: 1em;
   
 }
 .grid3{
@@ -237,7 +238,7 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 25%;
+    width: 20%;
     padding: 10px;
 }
 
@@ -269,8 +270,8 @@
     cursor: pointer;
     color: rgb(53, 51, 51);
     position: absolute;
-    left: 20%;
-    top:20%;
+    left: 16%;
+    top:21%;
     font-size: 28px;
     font-weight: lighter;
 }
@@ -312,7 +313,7 @@
 }
 .subb{
     display: flex;
-    width: 70%;
+    width: 80%;
 }
 .sub3b{
     margin-top: 3vh;
@@ -329,6 +330,8 @@
 @media screen and (max-width: 576px) {
     .banner img {
         height: 150px;
+        width: 100%;
+        margin: auto;
     }
 
     .logo img {
@@ -351,6 +354,37 @@
     .buy {
         margin-left: 10%;
     }
+    .grid1 {
+        display: grid;
+        width: 100%;
+        margin: auto;
+        grid-template-columns: auto;
+        gap: 20px;
+       
+    }
+    
+    .img1,
+    .img2 {
+        width:100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .grid2 {
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+    
+    
+    .img8,
+    .img9 {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    
 }
 
 
