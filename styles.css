@@ -102,13 +102,14 @@
 
 .main3 img {
     width: 100%;
-    height: 80px;
+    height: 100px;
     border-radius: 10px;
 }
 
 .flex1 {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
     margin: auto;
     gap: 20px;
@@ -333,7 +334,10 @@
         width: 100%;
         margin: auto;
     }
-
+    .page {
+        width: 85%;
+        margin: auto;
+    }
     .logo img {
         width: 60px;
     }
@@ -354,11 +358,17 @@
     .buy {
         margin-left: 10%;
     }
+    .cc img {
+        width: 83px;
+        height: 91px;
+        margin-top: 3vh;
+    }
+    
     .grid1 {
         display: grid;
         width: 100%;
         margin: auto;
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
         gap: 20px;
        
     }
@@ -367,12 +377,12 @@
     .img2 {
         width:100%;
         height: auto;
-        border-radius: 10px;
+        border-radius: 5px;
     }
     .grid2 {
         display: grid;
         width: 100%;
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
         gap: 20px;
     }
     
@@ -383,7 +393,25 @@
         height: auto;
         border-radius: 10px;
     }
+    .main3 img {
+        width: 100%;
+        height: 41px;
+        border-radius: 5px;
+    }
+  .img10{
+    width: 100%;
+    height: 150px;
+  }
+  .icc {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 2vh;
+}
+.slide img{
+    width: 75px;
+    height:52px;
     
+}
     
 }
 
